@@ -9,7 +9,7 @@
   --black: #000;
    --tabs-border-color: #ff0000;
   --tabs-border-size: 1px;
-  --tabs-text-color: white;
+  --tabs-text-color: rgb(35, 35, 35);
   --tabs-dark-color: #000000;
   --tabs-lite-color: #272727;
   --tabs-width: 120px;
@@ -449,6 +449,63 @@ footer .politicas{
 #credits p{
   font-size: 14px
 }
+
+
+/*Paginas*/
+#privacy, #portafolio, #servicios, #about {
+  padding-top: 100px;
+}
+
+/***************
+CUENTA
+***************/
+.cuenta{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cuenta form{
+  background-color: var(--black);
+  padding: 15px;
+  border-radius: 10px;
+  width: 500px;
+  max-width: 100%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.cuenta form h2{
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.cuenta form label{
+  font-size: 14px;
+}
+
+.cuenta form .form-group{
+  margin-bottom: 10px;
+}
+
+.cuenta form .error-text{
+  color: var(--red);
+  font-size: 12px;
+  margin-bottom: 10px;
+  visibility: hidden;
+}
+
+.cuenta form a{
+  color: var(--red);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.cuenta input[type="checkbox"]{
+  margin-right: 10px;
+}
+
 
 /*Responsive*/
 

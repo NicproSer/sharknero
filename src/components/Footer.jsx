@@ -54,7 +54,7 @@ export const Footer = () => {
                   <a href="/">Blog</a>
                 </li>
                 <li>
-                  <a href="/">Cuenta</a>
+                  <a href="/login">Cuenta</a>
                 </li>
               </ul>
             </div>
@@ -93,7 +93,7 @@ export const Footer = () => {
                 <h3>Políticas</h3>
                 <ul>
                   <li>
-                    <a href="/">Política de privacidad</a>
+                    <a href="/privacy">Política de privacidad</a>
                   </li>
                   <li>
                     <a href="/">Términos y condiciones</a>

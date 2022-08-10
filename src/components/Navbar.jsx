@@ -34,7 +34,7 @@ export const Navbar = () => {
                       <a href="/" className="nav-link">
                         Blog
                       </a>
-                      <a href="/" className="nav-link">
+                      <a href="/login" className="nav-link">
                         <i class="bx bx-user"></i>
                       </a>
                     </div>
@@ -53,10 +53,10 @@ export const Navbar = () => {
                 >
                   <i class="bx bx-menu"></i>
                 </a>
-                <a href="/">
+                <a href="/login">
                   <i class="bx bx-user"></i>
                 </a>
-                <a href="/">
+                <a href="https://wa.me/393802146360">
                   <i class="bx bxl-whatsapp"></i>
                 </a>
               </div>

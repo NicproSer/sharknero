@@ -9,6 +9,15 @@ class About extends React.Component {
       <>
       <Preloader/>
       <Navbar />
+      <div className="container" id="about">
+        <div className="row">
+          <div className="col-md-12">
+            <h1>About</h1>
+            <p>SHARK NERO, le asegura la confidencialidad de sus datos personales y le garantiza que en ningún momento serán cedidos a terceras empresas
+              ajenas a nuestra organización.</p>
+              </div>
+              </div>
+              </div>
       <Footer/>
       </>
     );
