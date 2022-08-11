@@ -45,6 +45,16 @@ p{
   font-size: 16px;
 }
 
+
+.card{
+  max-width: 350px;
+  padding: 5px;
+  margin: 0 auto;
+  background-color: var(--gray) !important;
+  border: 1px solid var(--red);
+  border-radius: 5px;
+}
+
 /*BOTONES*/
 .btn-primary{
   background: var(--red) !important;
@@ -316,6 +326,10 @@ p{
   position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+#form label{
+  color: var(--white);
 }
 
 /*TABS CONTENT*/

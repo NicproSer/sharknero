@@ -2,7 +2,7 @@ import React from 'react'
 import '../../index.css';
 import "bootstrap/dist/css/bootstrap.css";
 import { Navbar } from '../Navbar';
-import { Footer } from '../Footer';
+// import { Footer } from '../Footer';
 import { Banner } from './Banner';
 import { ScrollButton } from '../ScrollButton';
 import { Nosotros } from './Nosotros';
@@ -27,7 +27,7 @@ class Home extends React.Component{
             <Blog/>
             <Form/>
             <ScrollButton/>
-            <Footer/>
+            {/* <Footer/> */}
             </>
         )
     }

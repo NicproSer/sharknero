@@ -31,7 +31,7 @@ export const Navbar = () => {
                       <a href="/portfolio" className="nav-link">
                         Portafolio
                       </a>
-                      <a href="/" className="nav-link">
+                      <a href="/blog" className="nav-link">
                         Blog
                       </a>
                       <a href="/login" className="nav-link">
@@ -80,19 +80,19 @@ export const Navbar = () => {
                 <div className="offcanvas-body">
                   <ul>
                     <li>
-                      <a href="/">Nosotros</a>
+                      <a href="/about">Nosotros</a>
                     </li>
                     <li>
-                      <a href="/">Servicios</a>
+                      <a href="/services">Servicios</a>
                     </li>
                     <li>
-                      <a href="/">Portafolio</a>
+                      <a href="/portfolio">Portafolio</a>
                     </li>
                     <li>
-                      <a href="/">Blog</a>
+                      <a href="/blog">Blog</a>
                     </li>
                     <li>
-                      <a href="/">Cuenta</a>
+                      <a href="/login">Cuenta</a>
                     </li>
                   </ul>
                 </div>

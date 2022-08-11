@@ -19,6 +19,7 @@ export const Form = () => {
                           id="name"
                           name="name"
                           className="form-control"
+                          placeholder="Nombre"
                         />
                       </div>
                       <div className="col-md-4">
@@ -28,6 +29,7 @@ export const Form = () => {
                           id="email"
                           name="email"
                           className="form-control"
+                          placeholder="Email"
                         />
                       </div>
                       <div className="col-md-4">
@@ -77,6 +79,7 @@ export const Form = () => {
                           name="marca"
                           id="marca"
                           className="form-control"
+                          placeholder="Marca"
                         />
                       </div>
                       <div className="col-md-12">
@@ -85,6 +88,7 @@ export const Form = () => {
                           id="message"
                           name="message"
                           className="form-control"
+                          placeholder="Mensaje"
                           rows="5"
                         ></textarea>
                       </div>
@@ -108,6 +112,7 @@ export const Form = () => {
                           name="namecontact"
                           id="name_contact"
                           className="form-control"
+                          placeholder="Nombre"
                         />
                       </div>
                       <div className="col-md-4">
@@ -117,6 +122,7 @@ export const Form = () => {
                           name="emailcontact"
                           id="email_contact"
                           className="form-control"
+                          placeholder="Email"
                         />
                       </div>
                       <div className="col-md-4">
@@ -126,11 +132,12 @@ export const Form = () => {
                           name="subjectcontact"
                           id="subject_contact"
                           className="form-control"
+                          placeholder="Asunto"
                         />
                       </div>
                       <div className="col-md-12">
                         <label htmlFor="message_contact">Mensaje *</label>
-                        <textarea className="form-control" rows={5}></textarea>
+                        <textarea className="form-control" rows={5} name='messagecontact' id="message_contact" placeholder="Mensaje"></textarea>
                       </div>
                     </div>
                     <br />
