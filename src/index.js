@@ -9,12 +9,11 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import Portafolio from "./components/Portfolio/Portafolio";
-import Blogs from "./components/Blog/Blog";
+import { Blog } from "./components/Blog/Blog";
 import { Post } from "./components/Blog/Post";
 import Privacy from "./components/Privacy/Privacy";
 import Register from "./components/Cuenta/Register";
 import Login from "./components/Cuenta/Login";
-import { AddEditBlog } from "./components/Blog/AddEditBlog";
 import { NotFound } from "./components/Blog/NotFound";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -26,10 +25,8 @@ root.render(
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/portfolio" element={<Portafolio />} />
-        <Route path="/blog" element={<Blogs />} />
-        <Route path="/addBlog" element={<AddEditBlog />} />
-        <Route path="/editBlog/:id" element={<AddEditBlog />} />
-        <Route path="/blog/:id" element={<Post />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/post/:id" element={<Post />} />
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />

@@ -1,7 +1,7 @@
-import React from 'react'
-import WebImg from '../../assets/Web.png'
-import WebImg2 from '../../assets/Para-Que-una-Web.jpg'
-import WebImg3 from '../../assets/que-es-un-hosting.png'
+import React from "react";
+import WebImg from "../../assets/Web.png";
+import WebImg2 from "../../assets/Para-Que-una-Web.jpg";
+import WebImg3 from "../../assets/que-es-un-hosting.png";
 
 export const Blog = () => {
   return (
@@ -16,7 +16,7 @@ export const Blog = () => {
             blog donde podrán aclarar sus dudas y conocer la respuesta a las
             preguntas más frecuentes
           </p>
-          <a href="/" className="btn-white">
+          <a href="/blog" className="btn-white">
             Saber más
           </a>
         </div>
@@ -45,7 +45,7 @@ export const Blog = () => {
                 brindar una pagina web a tu negocia para aclarar esa duda esta
                 esta pubicacion.
               </p>
-              <a href="/" className="btn btn-primary">
+              <a href="/post/1" className="btn btn-primary">
                 Leer más
               </a>
             </article>
@@ -69,4 +69,4 @@ export const Blog = () => {
       </div>
     </div>
   );
-}
+};

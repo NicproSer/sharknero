@@ -495,7 +495,8 @@ footer .politicas {
 #portafolio,
 #servicios,
 #about,
-#blog {
+#blog,
+#post {
   padding-top: 100px;
 }
 
@@ -520,6 +521,7 @@ Blog
   border-radius: 5px;
   padding: 8px;
   margin-bottom: 10px;
+  /* transform: translateY(-0px); */
 }
 
 #blog .searchBar .bx-x {
@@ -532,17 +534,69 @@ Blog
   transform: translateX(-35px) translateY(8px);
 }
 
+#blog img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
 #blog .chip {
   color: var(--white);
   background-color: var(--red);
   border-radius: 5px;
-  width: 100px;
+  width: fit-content;
+  padding: 0 5px;
   font-size: 14px;
+  margin-top: 4px;
+}
+
+#blog p {
+  max-height: 50px;
+  overflow: hidden;
+  font-size: 16px;
+  margin-top: 10px;
 }
 
 #blogerror {
   text-align: center;
   margin-top: 50px;
+}
+
+/*Post*/
+
+#post .back {
+  color: var(--red);
+  font-size: 20px;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+#post img {
+  width: 100%;
+  height: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#post .chip {
+  color: var(--white);
+  background-color: var(--red);
+  border-radius: 5px;
+  width: fit-content;
+  padding: 2px 5px;
+  font-size: 15px;
+  margin: 8px;
+}
+
+#post small {
+  margin-top: 10px !important;
+  font-weight: 600;
+}
+
+#post p {
+  font-size: 16px;
+  margin-top: 15px;
 }
 
 /***************
@@ -688,6 +742,10 @@ Erorr 404
 
   #trabajo .col-md-2 span {
     transform: translateY(55px);
+  }
+
+  #blog .card {
+    margin-bottom: 20px;
   }
 
   #notFound figure img {
