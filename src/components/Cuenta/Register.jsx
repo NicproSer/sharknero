@@ -1,13 +1,17 @@
-import React from 'react'
-import { Preloader } from '../Preloader';
+import React from "react";
+import { Preloader } from "../Preloader";
+import { Link } from "react-router-dom";
 
 class Register extends React.Component {
   render() {
     return (
       <>
-         <Preloader /> 
+        <Preloader />
         <div className="cuenta container" id="register">
           <form>
+            <Link to="/">
+              <i class="bx bx-chevron-left"></i> Regresar
+            </Link>
             <h2>Registrarse</h2>
             <div className="form-group">
               <label htmlFor="nombre">Nombre</label>
@@ -70,8 +74,11 @@ class Register extends React.Component {
               />
             </div>
             <div className="form-group">
-              <input type="checkbox" name="terms" id="terms" required/>
-              <label htmlFor="terms">Acepta los <a href="/privacy">Términos y Condiciones</a> de Shark Nero</label>
+              <input type="checkbox" name="terms" id="terms" required />
+              <label htmlFor="terms">
+                Acepta los <a href="/privacy">Términos y Condiciones</a> de
+                Shark Nero
+              </label>
             </div>
             <button type="submit" className="btn btn-primary">
               Registrarme
