@@ -6,6 +6,7 @@ export const blogList = [
     subCategory: ["Web", "Desarrollo Web"],
     description: [
       "Un Hosting es un espacio en un servidor, que sirve para almacenar páginas web, conectado a la red para que los navegadores puedan acceder a un sitio. Esto lo convierte en un servicio fundamental si queremos tener nuestro propio blog, e-commerce o portal online.",
+
       "Dicho de otra manera, el hosting es como una habitación de hotel que nos permite hospedarnos en un lugar en específico. En este caso, tener un hosting nos da posibilidad de hospedar o alojar nuestra web no en un hotel sino en un servidor. Nuestra web puede contener: texto, imágenes, videos, archivos PDF y más.",
     ],
     image:
@@ -17,9 +18,9 @@ export const blogList = [
     title: "¿Y para qué quiero una página web?",
     category: "Desarrollo Web",
     subCategory: ["Web", "", "Bootstrap"],
-    description:
-      "Lorem Ipsum Lkjhdedfjdcjdfoedoidd f fueokfjfdouockdhriujdivdoi u odifudkjdodoifdofi oidufoirufodjcd df",
-    image: "https://source.unsplash.com/random",
-    date: "2020-01-01",
+    description: "",
+    image:
+      "https://s3.us-east-2.amazonaws.com/mgpanel/919-phpthumb-generated-thumbnail.png",
+    date: "2022-08-15",
   },
 ];
