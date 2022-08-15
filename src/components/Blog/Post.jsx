@@ -39,6 +39,7 @@ export const Post = () => {
               <br />
               <small>{blog.date}</small>
               <p>{blog.description}</p>
+              <p>{blog.description}</p>
             </div>
           </div>
         ) : (
