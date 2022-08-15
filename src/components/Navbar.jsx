@@ -35,7 +35,7 @@ export const Navbar = () => {
                       Blog
                     </a>
                     <a
-                      className="nav-link dropdown-toogle"
+                      className="nav-link dropdown-toggle"
                       role="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
