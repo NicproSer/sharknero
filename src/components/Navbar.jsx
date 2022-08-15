@@ -24,49 +24,21 @@ export const Navbar = () => {
                         Inicio
                       </a>
                     </li>
-                    <li className="nav-item">
-                      <a href="/about" className="nav-link">
-                        Nosotros
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a href="/services" className="nav-link">
-                        Servicios
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a href="/portfolio" className="nav-link">
-                        Portafolio
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a href="/blog" className="nav-link">
-                        Blog
-                      </a>
-                    </li>
-                    <li className="nav-item dropdown">
-                      <a
-                        className="nav-link dropdown-toggle"
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                        href="#"
-                      >
-                        <i class="bx bx-user"></i>
-                        <ul className="dropdown-menu">
-                          <li>
-                            <a href="/login" className="dropdown-item">
-                              Iniciar Sesión
-                            </a>
-                          </li>
-                          <li>
-                            <a href="/register" className="dropdown-item">
-                              Registrarse
-                            </a>
-                          </li>
-                        </ul>
-                      </a>
-                    </li>
+                    <a href="/about" className="nav-link">
+                      Nosotros
+                    </a>
+                    <a href="/services" className="nav-link">
+                      Servicios
+                    </a>
+                    <a href="/portfolio" className="nav-link">
+                      Portafolio
+                    </a>
+                    <a href="/blog" className="nav-link">
+                      Blog
+                    </a>
+                    <a className="nav-link" href="/cuenta">
+                      <i class="bx bx-user"></i>
+                    </a>
                   </ul>
                 </div>
               </nav>
@@ -83,7 +55,7 @@ export const Navbar = () => {
               >
                 <i class="bx bx-menu"></i>
               </a>
-              <a href="/login">
+              <a href="/cuenta">
                 <i class="bx bx-user"></i>
               </a>
               <a href="https://wa.me/393802146360">
@@ -122,7 +94,7 @@ export const Navbar = () => {
                     <a href="/blog">Blog</a>
                   </li>
                   <li>
-                    <a href="/login">Cuenta</a>
+                    <a href="/cuenta">Cuenta</a>
                   </li>
                 </ul>
               </div>

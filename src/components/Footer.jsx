@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 export const Footer = () => {
   return (
@@ -54,7 +54,7 @@ export const Footer = () => {
                   <a href="/blog">Blog</a>
                 </li>
                 <li>
-                  <a href="/login">Cuenta</a>
+                  <a href="/cuenta">Cuenta</a>
                 </li>
               </ul>
             </div>
@@ -96,7 +96,7 @@ export const Footer = () => {
                     <a href="/privacy">Política de privacidad</a>
                   </li>
                   <li>
-                    <a href="/">Términos y condiciones</a>
+                    <a href="/privacy">Términos y condiciones</a>
                   </li>
                 </ul>
               </div>
@@ -106,13 +106,13 @@ export const Footer = () => {
       </footer>
       <div id="credits">
         <div className="container" align="center">
-          <p>SHARK NERO &copy; {new Date().getFullYear()}
-          <br />
-          Todos los derechos reservados
+          <p>
+            SHARK NERO &copy; {new Date().getFullYear()}
+            <br />
+            Todos los derechos reservados
           </p>
         </div>
       </div>
     </>
   );
-}
-
+};

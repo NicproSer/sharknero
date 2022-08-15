@@ -15,6 +15,7 @@ import Privacy from "./components/Privacy/Privacy";
 import Register from "./components/Cuenta/Register";
 import Login from "./components/Cuenta/Login";
 import { NotFound } from "./components/Blog/NotFound";
+import Cuenta from "./components/Cuenta/Cuenta";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -28,6 +29,7 @@ root.render(
         <Route path="/blog" element={<Blog />} />
         <Route path="/post/:id" element={<Post />} />
         <Route path="/privacy" element={<Privacy />} />
+        <Route path="/cuenta" element={<Cuenta />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="*" element={<NotFound />} />
