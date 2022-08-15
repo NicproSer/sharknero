@@ -20,11 +20,10 @@ class Services extends React.Component {
             <div className="col-lg-4">
               <div className="card mb-5 shadow card-price">
                 <div className="card-header">
-                  <h2>Desde 125$</h2>
+                  <h2>Página Web</h2>
+                  <h3>Desde 125$</h3>
                 </div>
-                <div className="card-body">
-                  <h3 className="card-heading text-center"></h3>
-                </div>
+                <div className="card-body"></div>
               </div>
             </div>
           </div>
