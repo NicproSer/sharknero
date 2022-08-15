@@ -63,7 +63,7 @@ export const Footer = () => {
               <ul className="icons">
                 <li>
                   <a
-                    href="https://www.instagram.com/sharkneroapps/"
+                    href="https://www.instagram.com/sharkneroweb/?igshid=YmMyMTA2M2Y%3D"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -81,7 +81,7 @@ export const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="https://www.instagram.com/sharkneroweb/?igshid=YmMyMTA2M2Y%3D"
+                    href="https://twitter.com/shark_nero/"
                     target="_blank"
                     rel="noreferrer"
                   >
