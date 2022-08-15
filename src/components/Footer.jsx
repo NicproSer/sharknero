@@ -81,7 +81,7 @@ export const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="https://twitter.com/shark_nero/"
+                    href="https://instagram.com/sharkneroweb?igshid=YmMyMTA2M2Y="
                     target="_blank"
                     rel="noreferrer"
                   >
