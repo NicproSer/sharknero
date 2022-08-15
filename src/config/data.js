@@ -7,7 +7,6 @@ export const blogList = [
     description: [
       "Un Hosting es un espacio en un servidor, que sirve para almacenar páginas web, conectado a la red para que los navegadores puedan acceder a un sitio. Esto lo convierte en un servicio fundamental si queremos tener nuestro propio blog, e-commerce o portal online.",
       <br />,
-      <h1>¿Qué es un hosting y para qué sirve?</h1>,
       <br />,
       "Dicho de otra manera, el hosting es como una habitación de hotel que nos permite hospedarnos en un lugar en específico. En este caso, tener un hosting nos da posibilidad de hospedar o alojar nuestra web no en un hotel sino en un servidor. Nuestra web puede contener: texto, imágenes, videos, archivos PDF y más.",
     ],
