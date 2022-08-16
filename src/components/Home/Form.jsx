@@ -40,36 +40,35 @@ export const Form = () => {
                           className="form-control"
                         >
                           <option value="">Seleccione</option>
-                          <option value="a">1</option>
-                          <option value="b">2</option>
+                          <option value="a">1 semana</option>
+                          <option value="b">2 semana</option>
+                          <option value="c">3 semana</option>
+                          <option value="d">4 semana</option>
                         </select>
                       </div>
                       <div className="col-md-4">
                         <label htmlFor="experiencia">
-                          Nivel de Experiencia*
+                          Nivel de Experiencia visual*
                         </label>
                         <select
                           name="experiencia"
                           id="experiencia"
                           className="form-control"
                         >
-                          <option value="1">Facil</option>
-                          <option value="2">Intermedio</option>
+                          <option value="1">Simple</option>
+                          <option value="2">Intuitiva</option>
                         </select>
                       </div>
                       <div className="col-md-4">
-                        <label htmlFor="proceso">
-                          Idea Cómo hacer el Proceso
+                        <label htmlFor="idea">
+                          Idea general *
                         </label>
-                        <select
-                          name="proceso"
-                          id="proceso"
+                        <input
+                          name="idea"
+                          id="idea"
                           className="form-control"
-                        >
-                          <option value="">Seleccione</option>
-                          <option value="a">1</option>
-                          <option value="b">2</option>
-                        </select>
+                          placeholder="Idea"
+                        />
                       </div>
                       <div className="col-md-4">
                         <label htmlFor="marca">
