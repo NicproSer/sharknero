@@ -43,6 +43,7 @@ class Services extends React.Component {
                 </div>
               </div>
             </div>
+            <div className="col-lg-4"></div>
           </div>
         </div>
         <ScrollButton />
