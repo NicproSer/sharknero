@@ -55,6 +55,7 @@ export const Form = () => {
                           id="experiencia"
                           className="form-control"
                         >
+                          <option value="">Seleccione</option>
                           <option value="1">Simple</option>
                           <option value="2">Intuitiva</option>
                         </select>
