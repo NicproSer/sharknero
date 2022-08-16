@@ -73,7 +73,7 @@ export const Form = () => {
                       </div>
                       <div className="col-md-4">
                         <label htmlFor="marca">
-                          Logo y Paleta de Colores *
+                          Paleta de Colores *
                         </label>
                         <input
                           name="marca"
