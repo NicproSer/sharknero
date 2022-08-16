@@ -41,9 +41,9 @@ export const Form = () => {
                         >
                           <option value="">Seleccione</option>
                           <option value="a">1 semana</option>
-                          <option value="b">2 semana</option>
-                          <option value="c">3 semana</option>
-                          <option value="d">4 semana</option>
+                          <option value="b">2 semanas</option>
+                          <option value="c">3 semanas</option>
+                          <option value="d">4 semanas</option>
                         </select>
                       </div>
                       <div className="col-md-4">
