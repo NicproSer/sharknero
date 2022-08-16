@@ -35,9 +35,11 @@ class Services extends React.Component {
                     <li> Contenido de calidad </li>
                     <li> Botones y ligas de redes sociales </li>
                   </ul>
-                  <a href="/cuenta" className="btn btn-primary">
-                    Solicitar <i class="bx bx-cart"></i>
-                  </a>
+                  <div className="text-center">
+                    <a href="/cuenta" className="btn btn-primary">
+                      Solicitar <i class="bx bx-cart"></i>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

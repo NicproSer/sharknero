@@ -502,6 +502,14 @@ footer .politicas {
 }
 
 /************
+SERVICIOS
+************/
+
+#servicios .card-header {
+  background: var(--red);
+}
+
+/************
 Blog
 ************/
 
