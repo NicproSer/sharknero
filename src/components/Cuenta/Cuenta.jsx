@@ -15,7 +15,7 @@ class Cuenta extends React.Component {
               <h1>Inicia Sesión o Registrate</h1>
               <h3>
                 Para acceder a tu cuenta debes{" "}
-                <a href="/login">iniciar Sesión</a> o
+                <a href="/login">iniciar Sesión</a> o{" "}
                 <a href="/register">registrate</a>
               </h3>
             </div>
