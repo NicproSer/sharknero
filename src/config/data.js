@@ -18,7 +18,7 @@ export const blogList = [
     id: 2,
     title: "¿Y para qué quiero una página web?",
     category: "Desarrollo Web",
-    subCategory: ["Web", "", "Bootstrap"],
+    subCategory: ["Web", "Bootstrap"],
     description: "",
     image:
       "https://s3.us-east-2.amazonaws.com/mgpanel/919-phpthumb-generated-thumbnail.png",
