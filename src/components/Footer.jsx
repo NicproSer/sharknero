@@ -11,6 +11,10 @@ export const Footer = () => {
               <ul>
                 <li>
                   <i className="bx bxs-map"></i>
+                  <span>Caracas, Venezuela</span>
+                </li>
+                <li>
+                  <i className="bx bxs-map"></i>
                   <span>Valencia, Venezuela</span>
                 </li>
                 <li>
