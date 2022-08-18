@@ -25,7 +25,25 @@ class Privacy extends React.Component {
                 sus datos personales y le garantiza que en ningún momento serán
                 cedidos a terceras empresas ajenas a nuestra organización.
               </p>
+              <br />
               <h3>Finalidad de recolección de datos.</h3>
+              <p>
+                Shark Nero podrá recoger información personal como por ejemplo:
+              </p>
+              <ul>
+                <li>
+                  <strong>Nombre y Apellido</strong>
+                </li>
+                <li>
+                  <strong>Correo Electrónico</strong>
+                </li>
+                <li>
+                  <strong>Teléfono</strong>
+                </li>
+                <li>
+                  <strong>Dirección</strong>
+                </li>
+              </ul>
               <p>
                 Los datos personales se recopilan, sujeto a su consentimiento
                 libre y específico, para los fines que se indican a

@@ -100,7 +100,7 @@ export const Footer = () => {
                     <a href="/privacy">Política de privacidad</a>
                   </li>
                   <li>
-                    <a href="/privacy#terms">Términos y condiciones</a>
+                    <a href="/terms">Términos y condiciones</a>
                   </li>
                 </ul>
               </div>
