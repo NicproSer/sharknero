@@ -13,7 +13,7 @@ class Terms extends React.Component {
         <div className="container" id="terms">
           <div className="row">
             <div className="col-md-12">
-              <h1>Terminos Y Condiciones</h1>
+              <h1>Términos Y Condiciones</h1>
 
               <h4>Información Relevante</h4>
               <p>
