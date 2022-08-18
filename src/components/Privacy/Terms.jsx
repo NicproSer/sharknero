@@ -9,9 +9,13 @@ class Terms extends React.Component {
       <>
         <Preloader />
         <Navbar />
-        <div className="container" id="terms"></div>
+        <div className="container" id="terms">
+          <h1>Terminos Y Condiciones</h1>
+        </div>
         <Footer />
       </>
     );
   }
 }
+
+export default Terms;
