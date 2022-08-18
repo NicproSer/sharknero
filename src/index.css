@@ -509,6 +509,15 @@ SERVICIOS
   background: var(--red);
 }
 
+#servicios .precios {
+  margin-top: 70px;
+}
+
+#servicios .card {
+  min-height: 460px !important;
+  max-height: 460px;
+}
+
 /************
 Blog
 ************/

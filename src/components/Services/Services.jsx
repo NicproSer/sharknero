@@ -16,7 +16,7 @@ class Services extends React.Component {
               <h1 className="text-center">Servicios</h1>
             </div>
           </div>
-          <div className="row mb-5">
+          <div className="row mb-5" id="precios">
             <div className="col-lg-4">
               <div className="card mb-5 shadow card-price">
                 <div className="card-header text-center">
@@ -34,6 +34,9 @@ class Services extends React.Component {
                     <li> Navegación sencilla </li>
                     <li> Contenido de calidad </li>
                     <li> Botones y ligas de redes sociales </li>
+                    <li>
+                      <br />
+                    </li>
                   </ul>
                   <div className="text-center">
                     <a href="/cuenta" className="btn btn-primary">
@@ -78,9 +81,6 @@ class Services extends React.Component {
                 </div>
                 <div className="card-body">
                   <ul className="list-unstyled text-sm mb-4 pricing-feature-list">
-                    <li>
-                      <br />
-                    </li>
                     <li>
                       <br />
                     </li>
