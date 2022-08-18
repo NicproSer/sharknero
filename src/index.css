@@ -509,7 +509,7 @@ SERVICIOS
   background: var(--red);
 }
 
-#servicios .precios {
+#servicios #precios {
   margin-top: 70px;
 }
 
