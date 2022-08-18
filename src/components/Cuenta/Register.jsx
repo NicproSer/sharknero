@@ -76,8 +76,8 @@ class Register extends React.Component {
             <div className="form-group">
               <input type="checkbox" name="terms" id="terms" required />
               <label htmlFor="terms">
-                Acepta los <a href="/privacy">Términos y Condiciones</a> de
-                Shark Nero
+                Acepta los <a href="/terms">Términos y Condiciones</a> de Shark
+                Nero
               </label>
             </div>
             <button type="submit" className="btn btn-primary">
