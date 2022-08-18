@@ -12,6 +12,7 @@ import Portafolio from "./components/Portfolio/Portafolio";
 import { Blog } from "./components/Blog/Blog";
 import { Post } from "./components/Blog/Post";
 import Privacy from "./components/Privacy/Privacy";
+import Terms from "./components/Privacy/Terms";
 import Register from "./components/Cuenta/Register";
 import Login from "./components/Cuenta/Login";
 import { NotFound } from "./components/Blog/NotFound";
