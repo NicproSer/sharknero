@@ -16,9 +16,14 @@ class Privacy extends React.Component {
             <div className="col-md-12">
               <h1>Políticas de Privacidad</h1>
               <p>
-                SHARK NERO, le asegura la confidencialidad de sus datos
-                personales y le garantiza que en ningún momento serán cedidos a
-                terceras empresas ajenas a nuestra organización.
+                Esta Política de privacidad describe el modo en el que{" "}
+                <strong>Shark Nero</strong> usa y protege la información que es
+                proporcionada por sus usuarios al momento de usar el sitio web
+              </p>
+              <p>
+                <strong>SHARK NERO</strong>, le asegura la confidencialidad de
+                sus datos personales y le garantiza que en ningún momento serán
+                cedidos a terceras empresas ajenas a nuestra organización.
               </p>
               <h3>Finalidad de recolección de datos.</h3>
               <p>
@@ -45,40 +50,6 @@ class Privacy extends React.Component {
                 indicadas anteriormente.
               </p>
               <br />
-              <div id="terms">
-                <h2>Políticas de devolución</h2>
-                <p>
-                  El cliente tiene derecho a cancelar un proyecto bajo los
-                  siguientes términos y condiciones:
-                </p>
-                <br />
-                <p>
-                  1) El cliente debe enviar un correo electrónico a la siguiente
-                  dirección atclient@sharknero.com explicando el motivo de la
-                  devolución.
-                </p>
-                <p>
-                  2) El reembolso se realizará con una penalización del 20% del
-                  monto cancelado, debido al trabajo realizado hasta el momento
-                  de la solicitud.
-                </p>
-                <p>
-                  3) El cliente podrá recibir su reembolso en 30 días hábiles.{" "}
-                </p>
-                <br />
-                <p>
-                  {" "}
-                  Los motivos de la devolución pueden ser sólo los siguientes:{" "}
-                </p>
-                <br />
-                <p>
-                  1.Demora en la entrega (con respecto a lo acordado en el
-                  presupuesto).
-                </p>
-                <p>2. Demora en los desarrollos solicitados.</p>
-                <p>3. Malas prácticas al servicio ofrecido.</p>
-                <p>4. No se cumplen objetivos de implementación. </p>
-              </div>
             </div>
           </div>
         </div>

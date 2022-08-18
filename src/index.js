@@ -29,6 +29,7 @@ root.render(
         <Route path="/blog" element={<Blog />} />
         <Route path="/post/:id" element={<Post />} />
         <Route path="/privacy" element={<Privacy />} />
+        <Route path="/terms" element={<Terms />} />
         <Route path="/cuenta" element={<Cuenta />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
