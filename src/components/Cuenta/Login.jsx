@@ -34,7 +34,7 @@ class Login extends React.Component {
             </div>
             <div className="form-group">
               <p>
-                Si no tienes una cuenta puedes crearlo{" "}
+                Si no tienes una cuenta puedes crearla{" "}
                 <a href="/register">Aquí</a>
               </p>
             </div>
