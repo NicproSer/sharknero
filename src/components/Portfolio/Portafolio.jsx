@@ -4,7 +4,7 @@ import { Navbar } from "../Navbar";
 import { Preloader } from "../Preloader";
 import { Modal } from "./Modal";
 
-export const Portfolio = () => {
+export const Portafolio = () => {
      const [estadoModal1, cambiarEstado1] = useState(false)
         return (
             <>
