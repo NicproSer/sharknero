@@ -9,6 +9,7 @@ export const Portfolio = () => {
         return (
             <>
             <Preloader/>
+             <Navbar/>
             <div id="portafolio" className="container">
                 <div className="row">
                     <div className="col-md-12 text-center">
@@ -49,9 +50,7 @@ export const Portfolio = () => {
 
                 </div>
             </div>
-            <Navbar/>
             <Footer/>
             </>
         )
 }
-
