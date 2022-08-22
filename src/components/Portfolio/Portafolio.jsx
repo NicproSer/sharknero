@@ -5,7 +5,8 @@ import { Preloader } from "../Preloader";
 import { Modal } from "./Modal";
 
 export const Portafolio = () => {
-     const [estadoModal1, cambiarEstado1] = useState(false)
+     const [estadoModal1, cambiarEstadoModal1] = useState(false);
+
         return (
             <>
             <Preloader/>
@@ -47,10 +48,9 @@ export const Portafolio = () => {
               </div>
             </Modal>
         </div>
-
-                </div>
-            </div>
-            <Footer/>
+      </div>
+    </div>
+<Footer/>
             </>
         )
 }
