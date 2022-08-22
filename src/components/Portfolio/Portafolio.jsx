@@ -55,4 +55,3 @@ export const Portfolio = () => {
         )
 }
 
-export default Portafolio;
