@@ -8,7 +8,7 @@ import "./index.css";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
-import Portafolio from "./components/Portfolio/Portafolio";
+import { Portafolio } from "./components/Portfolio/Portafolio";
 import { Blog } from "./components/Blog/Blog";
 import { Post } from "./components/Blog/Post";
 import Privacy from "./components/Privacy/Privacy";
