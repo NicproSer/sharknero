@@ -15,8 +15,7 @@ class About extends React.Component {
             <div className="col-md-12">
               <h1>Nosotros</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Perferendis, laboriosam.
+                <strong>SHARK NERO</strong> posee una columna principal de 4 bloques que le proporcionan la solidez necesaria para acompañar a sus clientes en el viaje hacia sus objetivos de proyección en la WEB
               </p>
             </div>
           </div>
@@ -45,10 +44,7 @@ class About extends React.Component {
             </div>
             <div className="col-md-8">
               <p>
-                " Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Corporis perspiciatis odio, molestiae corrupti quam sunt quos
-                officia magni. Autem sequi ratione cupiditate quae deserunt hic
-                cum. Quaerat fuga ea deserunt! "
+                " Según <strong>SHARK NERO</strong>, un sitio web no debe tener costo excesivo, sino que debe ser una inversión rentable. Es por eso que ayudamos a nuestros clientes a lograr sus objetivos en la mejor CALIDAD Y PRECIO "
               </p>
             </div>
             <div className="col-md-4">
@@ -60,10 +56,7 @@ class About extends React.Component {
             </div>
             <div className="col-md-8">
               <p>
-                " Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Corporis perspiciatis odio, molestiae corrupti quam sunt quos
-                officia magni. Autem sequi ratione cupiditate quae deserunt hic
-                cum. Quaerat fuga ea deserunt! "
+                "  "
               </p>
             </div>
             <div className="col-md-4">

@@ -37,7 +37,7 @@ export const Navbar = () => {
                       Blog
                     </a>
                     <a className="nav-link" href="/cuenta">
-                      <i class="bx bx-user"></i>
+                      <i className="bx bx-user"></i>
                     </a>
                   </ul>
                 </div>
@@ -45,7 +45,7 @@ export const Navbar = () => {
             </div>
             <div className="menu_movil">
               <a href="/">
-                <i class="bx bx-home"></i>
+                <i className="bx bx-home"></i>
               </a>
               <a
                 data-bs-toggle="offcanvas"
@@ -53,13 +53,13 @@ export const Navbar = () => {
                 role="button"
                 aria-controls="offcanvasExample"
               >
-                <i class="bx bx-menu"></i>
+                <i className="bx bx-menu"></i>
               </a>
               <a href="/cuenta">
-                <i class="bx bx-user"></i>
+                <i className="bx bx-user"></i>
               </a>
               <a href="https://wa.me/393802146360">
-                <i class="bx bxl-whatsapp"></i>
+                <i className="bx bxl-whatsapp"></i>
               </a>
             </div>
             <div
@@ -74,7 +74,7 @@ export const Navbar = () => {
                 </h5>
                 <button
                   type="button"
-                  class="btn-close text-reset"
+                  className="btn-close text-reset"
                   data-bs-dismiss="offcanvas"
                   aria-label="Close"
                 ></button>

@@ -29,7 +29,7 @@ export const Post = () => {
         </a>
 
         {blog ? (
-          <div className="row">
+          <div className="row" style={{display: "block"}}>
             <div className="col-md-12">
               <img src={blog.image} alt={blog.title} />
               <h1>{blog.title}</h1>
