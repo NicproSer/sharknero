@@ -29,10 +29,7 @@ class About extends React.Component {
             </div>
             <div className="col-md-8">
               <p>
-                " Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Laudantium magni modi, vitae consequatur, molestiae deserunt
-                quidem corporis fugit officia cupiditate suscipit amet pariatur
-                dolorum odio laboriosam laborum animi maiores voluptas! "
+                " Nuestra estrategia se basa en tres (3) principios: Ofrecer a nuestros clientes un nivel de experiencia de primer nivel, ser la empresa más apreciada y respetada de nuestro sector y persegui un crecimiento sostenible y rentable "
               </p>
             </div>
             <div className="col-md-4">
@@ -56,7 +53,12 @@ class About extends React.Component {
             </div>
             <div className="col-md-8">
               <p>
-                "  "
+                " <strong>SHARK NERO</strong> cuenta con un equipo multidisciplinar, lo que garantiza a sus clientes la máxima eficeincia, confiabilidad y competencia. 
+                <br />
+                Gracias a nuestro equipo, en constante trabajo, somos capaces de dar soluciones concretas a las distintas solicitudes y requerimientos de nuestros clientes
+                <br />
+                Esto nos ayuda a garantizar a nuestros clientes un desempeño concreto y confiable también gracias a la posesión de habilidades blandas esenciales como habiliadades de comunicación, flexibilidad y resolución de problemas.
+                "
               </p>
             </div>
             <div className="col-md-4">
@@ -67,14 +69,12 @@ class About extends React.Component {
             </div>
             <div className="col-md-8">
               <p>
-                " Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Corporis perspiciatis odio, molestiae corrupti quam sunt quos
-                officia magni. Autem sequi ratione cupiditate quae deserunt hic
-                cum. Quaerat fuga ea deserunt! "
+                " El corazón operativo de nuestra agencia es el equipo de desarrollo compuesto por programadores frontend y backend con habilidades para la creación de sitios web y e-commerce de todo tipo. Los mejores para transformar tus ideas en una estrategia de proyecto con herramientas efectivas y de alto rendimiento  "
               </p>
             </div>
           </div>
       </div>
+      
       <Footer/>
       </>
     );

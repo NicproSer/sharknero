@@ -15,7 +15,7 @@ export const Portafolio = () => {
                 <div className="row">
                     <div className="col-md-12 text-center">
                         <h1>Portafolio</h1>
-                        <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus dolor eos dicta reprehenderit illo neque reiciendis. In molestias non vel iste fugiat assumenda possimus corrupti.</span>
+                        <span>Éstas son algunas de las ideas que han satisfecho todas las necesidades de las personas que han decidido confiar en nosotros y formar parte de nuestros proyectos</span>
                     </div>
                     <div className="col-md-3">
                         <div className="card">

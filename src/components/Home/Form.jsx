@@ -5,6 +5,7 @@ export const Form = () => {
     <div className="container" id="form">
       <div className="row">
         <div className="col-md-12">
+          <h2>¡Estás a un paso de crear un sitio web!</h2>
           <div className="tabs">
             <div className="tab-container">
               <div className="tab" id="tab2">

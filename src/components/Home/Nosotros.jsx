@@ -9,7 +9,7 @@ export const Nosotros = () => {
                 <img src={Logo} alt="Logo" className="img-fluid" width={80}/>
                 <h2>Nostros</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In architecto temporibus eligendi, magni nesciunt molestiae dolores non rem nihil aliquid at, cupiditate minus autem similique.
+                  SHARK NERO posee una columna de 4 bloques que le dan proporcionan la sólidez necesaria para acompañar a los clientes en el viaje de proyección en la WEB
                 </p>
                 <a href="/about" className="btn btn-primary">Ver más</a>
             </div>
