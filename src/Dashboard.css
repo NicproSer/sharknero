@@ -7,3 +7,12 @@
   --dorado: #9b8e15;
   --black: #000;
 }
+
+/*Sidebar*/
+.sidebar{
+  width: 120px;
+  height: 100vh;
+  margin: 10px;
+  background: var(--red);
+  border-radius: 10px;
+}
