@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from '../../assets/LOGO.png'
-import '../Dashboard.css'
+import '../../Dashboard.css'
 
 export const Sidebar = ({children}) => {
   return (
