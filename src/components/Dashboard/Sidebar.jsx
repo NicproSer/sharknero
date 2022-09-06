@@ -7,7 +7,7 @@ export const Sidebar = ({children}) => {
         <ul>
             <li>
                 <a href="">
-                    <img src={Logo} alt="Logo" />
+                    <img src={Logo} alt="Logo" width={80}/>
                 </a>
             </li>
             {children}

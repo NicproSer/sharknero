@@ -15,6 +15,12 @@ export const User = () => {
                         <span>Solicitudes</span>
                     </a>
                 </li>
+                <li>
+                    <a href="">
+                        <i class='bx bx-edit'></i>
+                        <span>Crear Solicitudes</span>
+                    </a>
+                </li>
             </Sidebar>
         </div>
     </>
