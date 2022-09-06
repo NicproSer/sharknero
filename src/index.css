@@ -534,7 +534,7 @@ Nosotros
 #about .col-md-8 {
   display: flex;
   align-items: center;
-  text-align: center;
+  text-align: justify;
 }
 
 
