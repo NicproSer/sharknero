@@ -18,7 +18,7 @@ export const User = () => {
                 <li>
                     <a href="">
                         <i class='bx bx-edit'></i>
-                        <span>Crear Solicitudes</span>
+                        <span>Crear Solicitud</span>
                     </a>
                 </li>
             </Sidebar>
