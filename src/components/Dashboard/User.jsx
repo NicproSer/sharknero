@@ -2,7 +2,7 @@ import React from 'react'
 import Logo from '../../assets/LOGO.png'
 import { Sidebar } from './Sidebar'
 import { Preloader } from '../Preloader'
-import '../Dashboard.css'
+import "../../Dashboard.css"
 
 export const User = () => {
   return (
