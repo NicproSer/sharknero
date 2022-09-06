@@ -11,14 +11,32 @@ export const User = () => {
             <Sidebar>
                 <li>
                     <a href="">
-                        <i class='bx bx-envelope'></i>
+                        <i className='bx bx-envelope'></i>
                         <span>Solicitudes</span>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <i class='bx bx-edit'></i>
+                        <i className='bx bx-edit'></i>
                         <span>Crear Solicitud</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i className='bx bx-briefcase-alt'></i>
+                        <span>Servicios</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i className='bx bx-purchase-tag'></i>
+                        <span>Ticket de Soporte</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i className='bx bx-log-out'></i>
+                        <span>Salir</span>
                     </a>
                 </li>
             </Sidebar>
