@@ -13,36 +13,41 @@ export const User = () => {
                 <li>
                     <a href="">
                         <i className='bx bx-envelope'></i>
+                        <br />
                         <span>Solicitudes</span>
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <i className='bx bx-edit'></i>
+                        <br />
                         <span>Crear Solicitud</span>
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <i className='bx bx-briefcase-alt'></i>
+                        <br />
                         <span>Servicios</span>
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <i className='bx bx-purchase-tag'></i>
+                        <br />
                         <span>Ticket de Soporte</span>
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <i className='bx bx-log-out'></i>
+                        <br />
                         <span>Salir</span>
                     </a>
                 </li>
             </Sidebar>
             <div className="interuser">
-                
+
             </div>
         </div>
     </>

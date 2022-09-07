@@ -25,9 +25,14 @@
   text-align: center;
 }
 
+.sidebar ul li a{
+  color: var(--white);
+  text-decoration: none;
+}
+
 /*InterUser*/
 .interuser{
   width: 82%;
   height: 100%;
-  
+
 }
