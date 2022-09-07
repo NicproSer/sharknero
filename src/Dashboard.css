@@ -10,14 +10,24 @@
 
 /*Sidebar*/
 .sidebar{
-  width: 200px;
-  height: 90ch;
-  margin: 15px;
+  width: 15%;
+  height: 100%;
+  margin: 15px 0 15px 15px;
   background: var(--red);
   border-radius: 10px;
-  position: fixed;
+  float: left;
 }
 
-.sidebar ul{
+.sidebar ul li{
   list-style: none;
+  color: var(--white);
+  padding: 15px 10px;
+  text-align: center;
+}
+
+/*InterUser*/
+.interuser{
+  width: 82%;
+  height: 100%;
+  
 }

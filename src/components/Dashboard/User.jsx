@@ -8,7 +8,7 @@ export const User = () => {
   return (
     <>
        <Preloader />
-        <div className="container">
+        <div>
             <Sidebar>
                 <li>
                     <a href="">
@@ -41,6 +41,9 @@ export const User = () => {
                     </a>
                 </li>
             </Sidebar>
+            <div className="interuser">
+                
+            </div>
         </div>
     </>
   )
