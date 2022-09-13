@@ -43,5 +43,8 @@
 .interuser{
   width: 82%;
   height: 100%;
-
+   box-shadow:red  0px 0px 2px 1px;
+    margin: 10px 10px 10px 0px;
+    border-radius: 10px;
+    float: right;
 }
