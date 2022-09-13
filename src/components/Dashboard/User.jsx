@@ -47,7 +47,14 @@ export const User = () => {
                 </li>
             </Sidebar>
             <div className="interuser">
-
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12 text-center">
+                            <h1>Bienvenido USERNAME</h1>
+                            
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </>
