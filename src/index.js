@@ -4,7 +4,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import "./index.css";
-import "./Dashboard.css"
+import "./Dashboard.css";
+import * as serviceWorker from "./serviceWorker";
 
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
@@ -19,7 +20,9 @@ import Login from "./components/Cuenta/Login";
 import { NotFound } from "./components/Blog/NotFound";
 import Cuenta from "./components/Cuenta/Cuenta";
 import { User } from "./components/Dashboard/User";
-import * as serviceWorker from './serviceWorker';
+
+import { Solicitud } from "./components/Dashboard/Solicitud";
+import { TicketUser } from "./components/Dashboard/TicketUser";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -37,13 +40,14 @@ root.render(
         <Route path="/cuenta" element={<Cuenta />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/user" element={<User/>} />
+        <Route path="/cuenta/user" element={<User />} />
+        <Route path="/user/crear-solicitud" element={<Solicitud />} />
+        <Route path="/user/crear-ticket" element={<TicketUser />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
 );
-
 
 serviceWorker.unregister();
 // If you want to start measuring performance in your app, pass a function
