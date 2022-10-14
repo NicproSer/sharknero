@@ -10,7 +10,7 @@ class Register extends React.Component {
         <div className="cuenta container" id="register">
           <form>
             <Link to="/">
-              <i class="bx bx-chevron-left"></i> Regresar
+              <i className="bx bx-chevron-left"></i> Regresar
             </Link>
             <h2>Registrarse</h2>
             <div className="form-group">

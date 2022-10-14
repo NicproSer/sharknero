@@ -10,7 +10,7 @@ class Login extends React.Component {
         <div className="cuenta container" id="login">
           <form>
             <Link to="/">
-              <i class="bx bx-chevron-left"></i> Regresar
+              <i className="bx bx-chevron-left"></i> Regresar
             </Link>
             <h2>Iniciar Sesión</h2>
             <div className="form-group">
