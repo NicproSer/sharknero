@@ -1,5 +1,5 @@
-import React from 'react'
-import LightBulb from '../../assets/Lightbulb.png'
+import React from "react";
+import LightBulb from "../../assets/Lightbulb.png";
 
 export const Proceso = () => {
   return (
@@ -17,31 +17,31 @@ export const Proceso = () => {
           </div>
           <div className="col-md-2">
             <div className="circulo" align="center"></div>
-            <i class="bx bxs-paint"></i>
+            <i className="bx bxs-paint"></i>
             <span>BOSQUEJO</span>
           </div>
           <div className="col-md-2">
             <div className="circulo" align="center"></div>
-            <i class="bx bx-palette"></i>
+            <i className="bx bx-palette"></i>
             <span>DISEÑO</span>
           </div>
           <div className="col-md-2">
             <div className="circulo" align="center"></div>
-            <i class="bx bx-code-alt"></i>
+            <i className="bx bx-code-alt"></i>
             <span>DESAROLLO</span>
           </div>
           <div className="col-md-2">
             <div className="circulo" align="center"></div>
-            <i class="bx bx-test-tube"></i>
+            <i className="bx bx-test-tube"></i>
             <span>PRUEBAS</span>
           </div>
           <div className="col-md-2">
             <div className="circulo" align="center"></div>
-            <i class="bx bx-rocket"></i>
+            <i className="bx bx-rocket"></i>
             <span>PRODUCCIÓN</span>
           </div>
         </div>
       </div>
     </section>
   );
-}
+};

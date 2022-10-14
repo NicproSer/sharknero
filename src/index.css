@@ -350,6 +350,7 @@ p {
   position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
+  z-index: 1;
 }
 
 #form label {
@@ -536,7 +537,6 @@ Nosotros
   align-items: center;
   text-align: justify;
 }
-
 
 /************
 SERVICIOS
@@ -880,16 +880,77 @@ Erorr 404
     color: var(--white);
     text-decoration: none;
   }
+
+  #banner .carousel-caption {
+    transform: translateY(-240px);
+  }
+
+  #banner h1 {
+    font-size: 60px;
+  }
+  #banner p {
+    font-size: 40px;
+  }
 }
 
-@media screen and (max-width: 390px) {
-  #button-top {
-    right: 30px;
-    bottom: 60px;
+@media screen and (max-width: 760px) {
+  #banner .carousel-caption {
+    transform: translateY(-135px);
+  }
+
+  #banner h1 {
+    font-size: 40px;
+  }
+  #banner p {
+    font-size: 30px;
+  }
+
+  #trabajo .col-md-2 {
+    margin: 50px 0;
+  }
+
+  #elegirnos .col-md-3 {
+    margin: 25px 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #banner img {
+    height: 50vh;
   }
 
   #banner .carousel-caption {
-    transform: translateY(-10px);
+    transform: translateY(-65px);
+  }
+
+  #banner h1 {
+    font-size: 35px;
+  }
+  #banner p {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  #banner img {
+    height: 50vh;
+  }
+
+  #banner .carousel-caption {
+    transform: translateY(-130px);
+  }
+
+  #banner h1 {
+    font-size: 30px;
+  }
+
+  #banner p {
+    font-size: 18px;
+  }
+
+  #button-top {
+    right: 30px;
+    bottom: 60px;
   }
 
   #trabajo .col-md-2 {
