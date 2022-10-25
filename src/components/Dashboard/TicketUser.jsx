@@ -46,7 +46,7 @@ export const TicketUser = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center">
-              <h1>Crear Ticket de Soporte</h1>
+              <h1>Ticket de Soporte</h1>
             </div>
           </div>
         </div>

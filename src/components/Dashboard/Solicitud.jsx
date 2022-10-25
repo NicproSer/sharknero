@@ -42,11 +42,53 @@ export const Solicitud = () => {
           </a>
         </li>
       </Sidebar>
-      <div className="interuser">
+      <div className="interuser" id="solicitudUser">
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center">
               <h1>Crear Solicitud</h1>
+              <form>
+                <div className="form-group">
+                  <span>Nombre y Apellido</span>
+                  <input
+                    type="text"
+                    placeholder="Nombre y Apellido"
+                    className="form-control"
+                    name="nombre"
+                    id="solicitudName"
+                  />
+                </div>
+                <div className="form-group">
+                  <span>Email</span>
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    name="email"
+                    id="solicitudEmail"
+                    className="form-control"
+                  />
+                </div>
+                <div className="form-group">
+                  <span>Asunto</span>
+                  <input
+                    type="text"
+                    placeholder="Asunto"
+                    className="form-control"
+                    name="asunto"
+                    id="soli"
+                  />
+                </div>
+                <div className="form-group">
+                  <span>Mensaje</span>
+                  <textarea
+                    className="form-control"
+                    placeholder="Mensaje"
+                    rows="5"
+                    name="message"
+                  ></textarea>
+                </div>
+                <button className="btn btn-primary">Enviar</button>
+              </form>
             </div>
           </div>
         </div>

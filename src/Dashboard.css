@@ -9,7 +9,7 @@
 }
 
 /*Sidebar*/
-.sidebar{
+.sidebar {
   width: 15%;
   height: 100ch;
   margin: 15px 0 15px 15px;
@@ -18,11 +18,11 @@
   float: left;
 }
 
-.sidebar ul{
+.sidebar ul {
   transform: translate(-15px, 45px);
 }
 
-.sidebar ul li{
+.sidebar ul li {
   list-style: none;
   color: var(--white);
   padding: 15px 10px;
@@ -30,21 +30,38 @@
   margin: 15px 0;
 }
 
-.sidebar ul li a{
+.sidebar ul li a {
   color: var(--white);
   text-decoration: none;
 }
 
-.sidebar ul li a i{
+.sidebar ul li a i {
   font-size: 24px;
 }
 
 /*InterUser*/
-.interuser{
+.interuser {
   width: 82%;
   height: 100%;
-   box-shadow:red  0px 0px 2px 1px;
-    margin: 10px 10px 10px 0px;
-    border-radius: 10px;
-    float: right;
+  box-shadow: red 0px 0px 2px 1px;
+  margin: 10px 10px 10px 0px;
+  border-radius: 10px;
+  float: right;
+}
+
+/*USUARIO*/
+#solicitudUser h1 {
+  padding: 15px 0;
+}
+
+#solicitudUser form {
+  width: 100%;
+  max-width: 450px;
+  display: grid;
+  gap: 1em;
+  grid-auto-columns: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 5px;
+  background: var(--gray);
 }
