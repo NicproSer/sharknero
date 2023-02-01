@@ -91,7 +91,7 @@ export const Form = () => {
                           id="message"
                           name="message"
                           className="form-control"
-                          placeholder="Mensaje"
+                          placeholder="Mensajes"
                           rows="5"
                         ></textarea>
                       </div>
