@@ -1,9 +1,9 @@
 
 export const Form = () => {
 
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
   return (
+    
     <div className="container" id="form">
       <div className="row">
         <div className="col-md-12">
@@ -91,13 +91,14 @@ export const Form = () => {
                           id="message"
                           name="message"
                           className="form-control"
-                          placeholder="Me"
+                          placeholder="Mensaje"
                           rows="5"
                         ></textarea>
                       </div>
-                    </div>
-                    <div class="g-recaptcha" data-sitekey="6Lcq-EQkAAAAAD1FXpDmGLZkA0Wwa6UwzhKzozzt"></div>
+                      
+                      <div class="g-recaptcha" data-sitekey="6Lcq-EQkAAAAAD1FXpDmGLZkA0Wwa6UwzhKzozzt"></div>
                     
+                    </div>
                     <br />
                     <button type="submit" className="btn btn-primary">
                       Enviar

@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../index.css';
 import "bootstrap/dist/css/bootstrap.css";
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 import { Navbar } from '../Navbar';
 import { Footer } from '../Footer';
 import { Banner } from './Banner';
