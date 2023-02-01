@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Preloader } from "../Preloader";
 
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 class Login extends React.Component {
   render() {
     return (
@@ -38,6 +40,9 @@ class Login extends React.Component {
                 <a href="/register">Aquí</a>
               </p>
             </div>
+
+            <div class="g-recaptcha" data-sitekey="6Lcq-EQkAAAAAMdmqS5FAUdWwRwTg-LUuiNxkhM_"></div>
+
             <button type="submit" className="btn btn-primary">
               Iniciar Sesión
             </button>
