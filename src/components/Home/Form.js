@@ -95,7 +95,7 @@ export const Form = () => {
                       </div>
                     </div>
 
-                    <div class="g-recaptcha" data-sitekey="6Lcq-EQkAAAAAD1FXpDmGLZkA0Wwa6UwzhKzozzt"></div>
+                    
                     <br />
                     <button type="submit" className="btn btn-primary">
                       Enviar
