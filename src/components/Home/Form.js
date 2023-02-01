@@ -95,9 +95,6 @@ export const Form = () => {
                           rows="5"
                         ></textarea>
                       </div>
-                      
-                      <div class="g-recaptcha" data-sitekey="6Lcq-EQkAAAAAD1FXpDmGLZkA0Wwa6UwzhKzozzt"></div>
-                    
                     </div>
                     <br />
                     <button type="submit" className="btn btn-primary">
