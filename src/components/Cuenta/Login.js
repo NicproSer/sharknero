@@ -40,9 +40,9 @@ class Login extends React.Component {
                 <a href="/register">Aquí</a>
               </p>
             </div>
-
-            <div class="g-recaptcha" data-sitekey="6Lcq-EQkAAAAAMdmqS5FAUdWwRwTg-LUuiNxkhM_"></div>
-
+            <div className="form-group">
+              <div class="g-recaptcha" data-sitekey="6Lcq-EQkAAAAAMdmqS5FAUdWwRwTg-LUuiNxkhM_"></div>
+            </div>
             <button type="submit" className="btn btn-primary">
               Iniciar Sesión
             </button>
